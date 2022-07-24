@@ -1,0 +1,37 @@
+h1 {
+    text-decoration: underline;
+}
+.main {
+    background-color: lightgray;
+}
+
+
+.logo {
+    height: auto;
+    width: 25%;
+    margin-left: -50px;
+}
+
+.menu1 {
+    color: black;
+    margin-right: auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .rrss {
+    margin-top: 20%;
+  }
