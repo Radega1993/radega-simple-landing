@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='container mt-5'>
+      <div className='container mt-2'>
         <h1 className='font-weight-bold'>Raül de Arriba</h1>
       </div>
 
@@ -26,13 +26,63 @@ function App() {
                 <li className="justify-content-start"><a href="#" className="nav-link">Proyectos</a></li>
               </ul>
             </nav>
-            <div className='row'>
+            <div className='row d-flex justify-content-between mt-5'>
+              <div className="col-4">
+                <div className="weather-card one">
+                  <div className="top">
+                    <div className="wrapper">
+                      <div className="mynav">
+
+                      </div>
+                      <h1 className="heading">Clear night</h1>
+                      <h3 className="location">Dhaka, Bangladesh</h3>
+                      <p className="temp">
+                        <span className="temp-value">20</span>
+                        <span className="deg">0</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               
+              <div className="col-4">
+                <div className="weather-card one">
+                  <div className="top">
+                    <div className="wrapper">
+                      <div className="mynav">
+
+                      </div>
+                      <h1 className="heading">Clear night</h1>
+                      <h3 className="location">Dhaka, Bangladesh</h3>
+                      <p className="temp">
+                        <span className="temp-value">20</span>
+                        <span className="deg">0</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-4">
+                <div className="weather-card one">
+                  <div className="top">
+                    <div className="wrapper">
+                      <div className="mynav">
+
+                      </div>
+                      <h1 className="heading">Clear night</h1>
+                      <h3 className="location">Dhaka, Bangladesh</h3>
+                      <p className="temp">
+                        <span className="temp-value">20</span>
+                        <span className="deg">0</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <div className='row'>
-            
-            </div>
           </div>
         </div>
       </div>
